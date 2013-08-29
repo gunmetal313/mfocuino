@@ -1,0 +1,8 @@
+K 10
+svn:ignore
+V 73
+build
+.lock-waf_linux2_build
+.waf-1.7.0-67fae9a8716eb7963b80290bf8e701ca
+
+END

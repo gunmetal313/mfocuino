@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/30/trunk/nfcreader
+END
+libnfc.uart.patch
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/30/trunk/nfcreader/libnfc.uart.patch
+END

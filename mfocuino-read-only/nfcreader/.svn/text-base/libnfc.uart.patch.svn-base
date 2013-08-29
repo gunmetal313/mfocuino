@@ -1,0 +1,39 @@
+Index: libnfc/chips/pn53x.c
+===================================================================
+--- libnfc/chips/pn53x.c	(révision 1447)
++++ libnfc/chips/pn53x.c	(copie de travail)
+@@ -997,6 +997,7 @@
+   size_t szRx = sizeof(abtRx);
+   int res = 0;
+ 
++  sleep(7);
+   if ((res = pn53x_transceive(pnd, abtCmd, sizeof(abtCmd), abtRx, szRx, 500)) < 0)
+     return res;
+   szRx = (size_t) res;
+Index: libnfc/drivers/pn532_uart.c
+===================================================================
+--- libnfc/drivers/pn532_uart.c	(révision 1447)
++++ libnfc/drivers/pn532_uart.c	(copie de travail)
+@@ -44,7 +44,7 @@
+ #include "chips/pn53x-internal.h"
+ #include "uart.h"
+ 
+-#define PN532_UART_DEFAULT_SPEED 115200
++#define PN532_UART_DEFAULT_SPEED 921600
+ #define PN532_UART_DRIVER_NAME "pn532_uart"
+ #define LOG_CATEGORY "libnfc.driver.pn532_uart"
+ 
+Index: libnfc/buses/uart_posix.c
+===================================================================
+--- libnfc/buses/uart_posix.c	(révision 1447)
++++ libnfc/buses/uart_posix.c	(copie de travail)
+@@ -152,6 +152,9 @@
+     case 38400:
+       stPortSpeed = B38400;
+       break;
++    case 921600:
++      stPortSpeed = B921600;
++      break;
+ #  ifdef B57600
+     case 57600:
+       stPortSpeed = B57600;

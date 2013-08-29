@@ -1,0 +1,40 @@
+10
+
+dir
+31
+http://mfocuino.googlecode.com/svn/trunk/mfoc/libraries/PN532/examples
+http://mfocuino.googlecode.com/svn
+
+
+
+2012-07-29T09:56:57.085057Z
+18
+christophe.duvernois
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3f68e906-9dd5-10bc-42d1-c2ca873768f7
+
+readMifareTargetID
+dir
+
+writeMifareMemory
+dir
+
+readMifareMemory
+dir
+
+readAllMemoryBlocks
+dir
+

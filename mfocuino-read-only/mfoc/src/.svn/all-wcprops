@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/28/trunk/mfoc/src
+END
+mifare.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/28/trunk/mfoc/src/mifare.c
+END
+mfoc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/28/trunk/mfoc/src/mfoc.cpp
+END
+nfc-utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/28/trunk/mfoc/src/nfc-utils.cpp
+END
+mifare.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/28/trunk/mfoc/src/mifare.h
+END
+mfoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/28/trunk/mfoc/src/mfoc.h
+END
+nfc-utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/28/trunk/mfoc/src/nfc-utils.h
+END
+crapto1.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/28/trunk/mfoc/src/crapto1.c
+END
+crapto1.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/28/trunk/mfoc/src/crapto1.h
+END
+crypto1.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/28/trunk/mfoc/src/crypto1.c
+END
+errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/28/trunk/mfoc/src/errors.h
+END
+mfocuino.ino
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/28/trunk/mfoc/src/mfocuino.ino
+END
