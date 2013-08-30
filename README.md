@@ -1,6 +1,11 @@
+Arduino + NFc shield= NFc reader/writer
+
+
 sudo apt-get install subversion dpkg-dev debhelper dh-autoreconf libtool
 
 sudo apt-get install libuсsb-dev libpcsclite-dev
+
+sudo apt-get install libusb-0.1-4 libpcsclite1 libccid pcscd
 
 wget http://libnfc.googlecode.com/files/libnfc-1.6.0-rc1.tar.gz
 
