@@ -3,9 +3,13 @@ sudo apt-get install subversion dpkg-dev debhelper dh-autoreconf libtool
 sudo apt-get install libuсsb-dev libpcsclite-dev
 
 wget http://libnfc.googlecode.com/files/libnfc-1.6.0-rc1.tar.gz
+
 tar -xvzf libnfc-1.6.0-rc1.tar.gz
+
 cd libnfc-1.6.0-rc1/
+
 patch -p0 < libnfc.uart.patch
+
 ./configure --with-drivers=pn532_uart --sysconfdir=/etc --prefix=/usr --enable-serial-autoprobe
 
 make clean all
