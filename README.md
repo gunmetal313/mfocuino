@@ -1,4 +1,4 @@
-Arduino + NFc shield= NFc reader/writer
+Arduino + NFc shield= NFC reader/writer
 
 
 sudo apt-get install subversion dpkg-dev debhelper dh-autoreconf libtool
