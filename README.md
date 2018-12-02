@@ -2,7 +2,7 @@ From https://code.google.com/p/mfocuino/
 
 Arduino + NFc shield= NFC reader/writer
 
-
+```
 sudo apt-get install subversion dpkg-dev debhelper dh-autoreconf libtool
 
 sudo apt-get install libuсsb-dev libpcsclite-dev
@@ -34,3 +34,4 @@ sudo cp /libnfc-1.7.0-rc7/contrib/libnfc/pn532_via_uart2usb.conf.sample /usr/loc
 nfc-scan-device -i -v
 
 nfc-list
+```
